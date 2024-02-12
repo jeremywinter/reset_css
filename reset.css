@@ -28,7 +28,9 @@ html {
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
+  -webkit-font-smoothing: antialiased;
 }
+
 /*added*/
 body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,menu {
   margin:0;
@@ -41,10 +43,6 @@ body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,menu 
 /**
  * Remove the margin in all browsers (opinionated).
  */
-
-body {
-  margin: 0;
-}
 
 /**
  * Add the correct display in IE 9-.
