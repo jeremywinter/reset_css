@@ -21,6 +21,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
 html {
@@ -28,14 +29,13 @@ html {
   line-height: 1.15; /* 2 */
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
-  -webkit-font-smoothing: antialiased;
+  
 }
 
 /*added*/
 body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,dl,dd,ol,ul,fieldset,legend,figure,menu {
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  border: 0;
 }
 /*-----------------------------------------------------
   Sections
