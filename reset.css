@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 /*added*/
 table, th, td { 
   border-spacing:0;
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
 
 /*-----------------------------------------------------
@@ -120,7 +120,7 @@ pre {
 }
 /*added*/
 ol, ul, li { 
-  list-style:none;
+  list-style: none;
 }
 
 /*-----------------------------------------------------
@@ -146,7 +146,7 @@ a:focus {
  * in all browsers (opinionated).
  */
 
-/* * Improves readability when focused and also mouse hovered in all browsers. */
+/* * Improves readability when focused and also mouse-hovered in all browsers. */
 a:active,
 a:hover {
   outline: 0;
@@ -271,7 +271,7 @@ audio:not([controls]) {
 
 img {
   border-style: none;
-  vertical-align:top
+  vertical-align: top
 }
 
 /**
@@ -332,6 +332,7 @@ html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
+  appearance: button;
 }
 
 /**
